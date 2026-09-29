@@ -173,52 +173,63 @@ Car Price Prediction/
 ├── requirements.txt
 └── README.md
 
-🚀 Installation
+⚙️ Installation & Setup
+
+Follow the steps below to run this project locally.
 
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/car-price-prediction.git
-2. Navigate to the Project
-cd car-price-prediction
-3. Create Virtual Environment
+git clone https://github.com/PranoyChandraDas107/Codealpha_Car-Price-Prediction.git
+2. Navigate to the Project Directory
+cd Codealpha_Car-Price-Prediction
+3. Create a Virtual Environment
 python -m venv venv
-4. Activate Virtual Environment
-
-Windows PowerShell:
-
+4. Activate the Virtual Environment
+Windows PowerShell
 .\venv\Scripts\Activate.ps1
-5. Install Dependencies
+Windows Command Prompt
+venv\Scripts\activate
+macOS / Linux
+source venv/bin/activate
+5. Install Required Dependencies
 pip install -r requirements.txt
+6. Verify the Installation
 
-▶️ How to Run
+Run the following command to verify that the required libraries are installed correctly:
 
-Data Analysis
+python -c "import pandas, numpy, sklearn, matplotlib, seaborn, joblib; print('All libraries installed successfully')"
+
+Expected output:
+
+All libraries installed successfully
+7. Run the Project
+
+Run the data analysis:
+
 python data_analysis.py
-Exploratory Data Analysis
+
+Run Exploratory Data Analysis:
+
 python eda.py
-Data Preprocessing
+
+Run data preprocessing:
+
 python preprocessing.py
-Train the Model
+
+Train the Machine Learning model:
+
 python train_model.py
-Predict Car Price
+
+Predict a car's selling price:
+
 python predict.py
 
-💡 Key Learning Outcomes
-
-Through this project, I practiced:
-
-Real-world dataset analysis
-Data cleaning
-Exploratory Data Analysis
-Feature engineering
-Categorical encoding
-Regression Machine Learning
-Model comparison
-Model evaluation
-Feature importance analysis
-Model serialization
-Making predictions using a trained ML model
+📌 Notes
+Python 3.x is required.
+Make sure the dataset files are located in the project root directory.
+The trained model is stored in car_price_model.pkl.
+Activate the virtual environment before running the project.
 
 👨‍💻 Author
 
 Pranoy Chandra Das
-Software Engineering / Data Science Student
+Software Engineering 
