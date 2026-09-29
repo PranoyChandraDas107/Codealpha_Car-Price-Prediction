@@ -178,21 +178,29 @@ Car Price Prediction/
 Follow the steps below to run this project locally.
 
 1. Clone the Repository
+   
 git clone https://github.com/PranoyChandraDas107/Codealpha_Car-Price-Prediction.git
-2. Navigate to the Project Directory
+3. Navigate to the Project Directory
+
 cd Codealpha_Car-Price-Prediction
-3. Create a Virtual Environment
+4. Create a Virtual Environment
+
 python -m venv venv
-4. Activate the Virtual Environment
+5. Activate the Virtual Environment
+
 Windows PowerShell
+
 .\venv\Scripts\Activate.ps1
 Windows Command Prompt
+
 venv\Scripts\activate
 macOS / Linux
+
 source venv/bin/activate
-5. Install Required Dependencies
+6. Install Required Dependencies
+
 pip install -r requirements.txt
-6. Verify the Installation
+7. Verify the Installation
 
 Run the following command to verify that the required libraries are installed correctly:
 
